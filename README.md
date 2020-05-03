@@ -7,13 +7,13 @@ Provides a Notification Channel for WebSms
 You can install it using Composer:
 
 ```bash
-composer require hebinet/laravel-websms-notification-channel
+composer require ajumt/laravel-websms-notification-channel
 ```
 
 Then publish the config file of the package.
 
 ```bash
-php artisan vendor:publish --provider="Hebinet\Notifications\WebSmsChannelServiceProvider" --tag=config
+php artisan vendor:publish --provider="ajumt\Notifications\WebSmsChannelServiceProvider" --tag=config
 ```
 
 ## Usage
